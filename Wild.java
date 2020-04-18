@@ -1,21 +1,22 @@
+package wild;
 
-
-// Creation de la classe Wild disposant d'une mÃ©thode main
 public class Wild {
-
+	
+// Creation de la méthode main
 	public static void main(String[] args) {
 
-     // Creation de Matthieu, un objet Wilder
+// Instanciation d'un objet Wilder breton avec en paramètre le nom, prenom et age		
+Wilder breton = new Wilder("Galette", "Saucisse", 33);
 
-Wilder matthieu = new Wilder();
-      
-     // Application de la mÃ©thode sayHello de la classe Wilder
-  
-matthieu.sayHello();
+//Application de la méthode sayHello à l'objet breton
+breton.sayHello();
+
+
+//Instanciation d'un objet Wilder amnésique, utilisant les paramètres par défaut		
+Wilder amnesique = new Wilder();
+
+//Application de la méthode sayHello à l'objet inconnu
+amnesique.sayHello();
 	}
 
 }
-
-
-// Creation de la classe Wilder disposant d'un prenom, nom, age, et d'une methode SayHello
-
