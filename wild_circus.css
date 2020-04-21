@@ -1,0 +1,107 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+body{
+  font-family : "Trebuchet MS", "sans-serif";
+}
+
+h1{
+  font-family:"Amatic SC",sherif;
+   text-align : center;
+   color : red; 
+   font-size:40px;
+}
+
+h2 {
+  font-family:"Amatic SC",sherif;
+  text-align : center;
+  color : blue;
+  font-weight: bold;
+}
+
+ul.menu {
+  font-family:"Amatic SC",sherif;
+  list-style-type:none;
+  text-align : center;
+  font-size:25px;
+       }
+
+ul.perf{
+  list-style-type:none; 
+  }
+
+ul.perf li {
+display: table-cell;
+text-align:center;
+}
+
+ul.quoi li {
+display: table-cell;
+text-align:center;
+}
+
+table {
+  text-align:center;
+  border-spacing:5px 5px;
+  margin:0 auto;
+     }
+
+caption {caption-side: "top";}
+
+th{
+  background-color: #e77575 ;
+  padding-top:12px;
+  padding-bottom:12px;
+  color: #360606  ;
+}
+
+tr{background-color: #e77575;}
+
+td{
+  padding-top:12px;
+  padding-bottom:12px;
+}
+
+form{text-align:center;}
+
+a{cursor:pointer;}
+
+.performance{
+  list-style-type:none;
+  display:table-cell;
+}
+
+.ioi{
+ height: 30px;
+ width:auto;
+ margin-left: 100px; 
+}
+
+.sololearn{
+  height:30px;
+  width:auto;
+  margin-left: 30px;
+}
+
+.wcs{
+height:30px;
+width:auto;
+ margin-left: 30px; 
+}
+
+.linkedin{
+ height: 30px;
+ width:auto;
+ margin-left: 30px;
+ margin-right: 100px; 
+}
+
+.footer {
+  text-align:center;
+  text-decoration:none;
+  margin-top : 50px;
+}
+
+.footer a{text-decoration:none;}
+
+.image{padding-top:15px;}
